@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=65"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "glovexr-xrdiag"
+version = "0.1.0"
+requires-python = ">=3.11,<3.12"
+dependencies = ["pyserial==3.5"]
+
+[project.scripts]
+xrdiag = "xrdiag.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["xrdiag*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,24 @@
+[
+  {
+    "packet": {
+      "kind": 1,
+      "request": 1,
+      "sequence": 0,
+      "boot": 0,
+      "timestamp_us": 0
+    },
+    "payload_hex": "",
+    "encoded_hex": "0401010101010101010101010101010101010101010105f86dbc4500"
+  },
+  {
+    "packet": {
+      "kind": 6,
+      "request": 0,
+      "sequence": 42,
+      "boot": 123,
+      "timestamp_us": 123456
+    },
+    "payload_hex": "0001ff68656c6c6f",
+    "encoded_hex": "03010601022a0101027b01010440e201010101010208010c01ff68656c6c6f84f748a100"
+  }
+]

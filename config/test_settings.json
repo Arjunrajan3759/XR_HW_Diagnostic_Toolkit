@@ -1,0 +1,1 @@
+{"schema_version":1,"note":"Reference defaults; CLI flags are authoritative and preserved in each run","duration_seconds":2,"payload_bytes":128,"packets_per_second":100,"camera":{"width":640,"height":480,"fps":30,"rgb":"RGB8","depth":"Z16"},"queue_mib":{"RGB":128,"DEPTH":96,"glove":8},"segment_mib":1024,"segment_seconds":60,"provisional_headroom":0.30}

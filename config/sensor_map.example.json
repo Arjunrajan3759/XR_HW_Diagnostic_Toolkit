@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "approved": false,
+  "approved_by": null,
+  "wiring_reference": null,
+  "buses": [],
+  "multiplexers": [
+    {
+      "id": "ADG728_1",
+      "bus": null,
+      "address": null,
+      "channels": null
+    },
+    {
+      "id": "ADG728_2",
+      "bus": null,
+      "address": null,
+      "channels": null
+    }
+  ],
+  "sensors": [
+    {
+      "id": "BMM350_1",
+      "type": "BMM350",
+      "bus": null,
+      "address": null,
+      "mux_required": null,
+      "mux_path": null,
+      "sample_rate_hz": null,
+      "output_format": null,
+      "timing": null,
+      "prerequisites": null
+    },
+    {
+      "id": "BMM350_2",
+      "type": "BMM350",
+      "bus": null,
+      "address": null,
+      "mux_required": null,
+      "mux_path": null,
+      "sample_rate_hz": null,
+      "output_format": null,
+      "timing": null,
+      "prerequisites": null
+    },
+    {
+      "id": "BMM350_3",
+      "type": "BMM350",
+      "bus": null,
+      "address": null,
+      "mux_required": null,
+      "mux_path": null,
+      "sample_rate_hz": null,
+      "output_format": null,
+      "timing": null,
+      "prerequisites": null
+    },
+    {
+      "id": "LIS2DW12_1",
+      "type": "LIS2DW12",
+      "bus": null,
+      "address": null,
+      "mux_required": null,
+      "mux_path": null,
+      "sample_rate_hz": null,
+      "output_format": null,
+      "timing": null,
+      "prerequisites": null
+    },
+    {
+      "id": "LIS2DW12_2",
+      "type": "LIS2DW12",
+      "bus": null,
+      "address": null,
+      "mux_required": null,
+      "mux_path": null,
+      "sample_rate_hz": null,
+      "output_format": null,
+      "timing": null,
+      "prerequisites": null
+    },
+    {
+      "id": "LIS2DW12_3",
+      "type": "LIS2DW12",
+      "bus": null,
+      "address": null,
+      "mux_required": null,
+      "mux_path": null,
+      "sample_rate_hz": null,
+      "output_format": null,
+      "timing": null,
+      "prerequisites": null
+    },
+    {
+      "id": "AS5600_1",
+      "type": "AS5600",
+      "bus": null,
+      "address": null,
+      "mux_required": null,
+      "mux_path": null,
+      "sample_rate_hz": null,
+      "output_format": null,
+      "timing": null,
+      "prerequisites": null
+    },
+    {
+      "id": "AS5600_2",
+      "type": "AS5600",
+      "bus": null,
+      "address": null,
+      "mux_required": null,
+      "mux_path": null,
+      "sample_rate_hz": null,
+      "output_format": null,
+      "timing": null,
+      "prerequisites": null
+    },
+    {
+      "id": "AS5600_3",
+      "type": "AS5600",
+      "bus": null,
+      "address": null,
+      "mux_required": null,
+      "mux_path": null,
+      "sample_rate_hz": null,
+      "output_format": null,
+      "timing": null,
+      "prerequisites": null
+    },
+    {
+      "id": "MPU6050_1",
+      "type": "MPU6050",
+      "bus": null,
+      "address": null,
+      "mux_required": null,
+      "mux_path": null,
+      "sample_rate_hz": null,
+      "output_format": null,
+      "timing": null,
+      "prerequisites": null
+    },
+    {
+      "id": "MPU6050_2",
+      "type": "MPU6050",
+      "bus": null,
+      "address": null,
+      "mux_required": null,
+      "mux_path": null,
+      "sample_rate_hz": null,
+      "output_format": null,
+      "timing": null,
+      "prerequisites": null
+    },
+    {
+      "id": "MPU6050_3",
+      "type": "MPU6050",
+      "bus": null,
+      "address": null,
+      "mux_required": null,
+      "mux_path": null,
+      "sample_rate_hz": null,
+      "output_format": null,
+      "timing": null,
+      "prerequisites": null
+    },
+    {
+      "id": "BNO08X_1",
+      "type": "BNO08X",
+      "bus": null,
+      "address": null,
+      "mux_required": null,
+      "mux_path": null,
+      "sample_rate_hz": null,
+      "output_format": null,
+      "timing": null,
+      "prerequisites": null
+    }
+  ],
+  "note": "Proposed inventory only. Confirm T1 island wiring and all bus/mux paths; no pins or addresses assumed.",
+  "bus_record_template": {
+    "id": null,
+    "sda_gpio": null,
+    "scl_gpio": null,
+    "clock_hz": null,
+    "voltage": null,
+    "pullups": null,
+    "wiring_reference": null
+  },
+  "mux_path_step_template": {
+    "mux_id": null,
+    "address": null,
+    "channel": null
+  },
+  "template_instructions": "Copy bus_record_template into buses once per verified bus. Copy mux_path_step_template into a sensor mux_path only where a verified mux connection exists. Null is unknown, never a default assignment."
+}

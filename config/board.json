@@ -1,0 +1,1 @@
+{"schema_version":1,"board":"seeed_xiao_esp32c6","platform":"espressif32@8.0.0","framework":"espidf","transport":"native USB Serial/JTAG","sensor_wiring_verified":false,"protocol_version":1,"max_decoded_bytes":1024}
